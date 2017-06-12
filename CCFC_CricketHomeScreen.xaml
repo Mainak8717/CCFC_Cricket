@@ -3,4 +3,14 @@
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 	x:Class="CCFC_Cricket.CCFC_CricketHomeScreen"
 	Title = "Home">
+	<StackLayout Orientation = "Vertical" HorizontalOptions = "CenterAndExpand">
+		<Image Source = "ccfc.jpg" HorizontalOptions = "CenterAndExpand"/>
+		<ScrollView Orientation = "Vertical">
+			<StackLayout Orientation = "Vertical" HorizontalOptions = "Start" >
+				<Label Text = "Captain – Mr. Irfan Ahmed" HorizontalOptions = "Start" HorizontalTextAlignment = "Start" />
+				<Label Text = "Email: irfanccfc@yahoo.co.in" HorizontalOptions = "Start" HorizontalTextAlignment = "Start" />
+				<Label Text = "Mob: +91 9830020435" HorizontalOptions = "Start" HorizontalTextAlignment = "Start" />
+			</StackLayout>
+		</ScrollView>
+	</StackLayout>
 </ContentPage>
