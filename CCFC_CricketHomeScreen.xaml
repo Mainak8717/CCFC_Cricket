@@ -14,8 +14,6 @@
 				<Label Text = "Joint Secy – Mr. Mainak Choudhury" HorizontalOptions = "Center" HorizontalTextAlignment = "Center" />
 			    <Image Source = "Zaffy.jpg" HorizontalOptions = "Center"/>
 				<Label Text = "Joint Secy – Mr. Zafar Aziz Khan" HorizontalOptions = "Center" HorizontalTextAlignment = "Center" />
-
-
 			</StackLayout>
 		</ScrollView>
 	</StackLayout>
