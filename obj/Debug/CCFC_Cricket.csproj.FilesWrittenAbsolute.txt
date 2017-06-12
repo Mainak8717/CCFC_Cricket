@@ -1,0 +1,14 @@
+/Users/rajlakshmi/CCFC_Cricket/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile111.AssemblyAttribute.cs
+/Users/rajlakshmi/CCFC_Cricket/obj/Debug/CCFC_Cricket.App.xaml
+/Users/rajlakshmi/CCFC_Cricket/obj/Debug/CCFC_Cricket.CCFC_CricketPage.xaml
+/Users/rajlakshmi/CCFC_Cricket/obj/Debug/CCFC_Cricket.CCFC_CricketHomeScreen.xaml
+/Users/rajlakshmi/CCFC_Cricket/obj/Debug/CCFC_Cricket.App.xaml.g.cs
+/Users/rajlakshmi/CCFC_Cricket/obj/Debug/CCFC_Cricket.CCFC_CricketPage.xaml.g.cs
+/Users/rajlakshmi/CCFC_Cricket/obj/Debug/CCFC_Cricket.CCFC_CricketHomeScreen.xaml.g.cs
+/Users/rajlakshmi/CCFC_Cricket/bin/Debug/CCFC_Cricket.pdb
+/Users/rajlakshmi/CCFC_Cricket/bin/Debug/CCFC_Cricket.dll
+/Users/rajlakshmi/CCFC_Cricket/obj/Debug/CCFC_Cricket.dll
+/Users/rajlakshmi/CCFC_Cricket/obj/Debug/CCFC_Cricket.pdb
+/Users/rajlakshmi/CCFC_Cricket/bin/Debug/Xamarin.Forms.Core.dll
+/Users/rajlakshmi/CCFC_Cricket/bin/Debug/Xamarin.Forms.Platform.dll
+/Users/rajlakshmi/CCFC_Cricket/bin/Debug/Xamarin.Forms.Xaml.dll

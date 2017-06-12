@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MSCommunity_Xamarin"
+             x:Class="CCFC_Cricket.CCFC_CricketPage">
+
+  <MasterDetailPage.Master>
+    <ContentPage Title="Menu"
+				 Icon = "SideMenu_Icon.png"
+                 BackgroundColor="#ff0000">
+
+      <StackLayout Orientation="Vertical" BackgroundColor = "Red" >
+        <StackLayout BackgroundColor="Green"
+                     HeightRequest="59">
+
+          <Label Text="Menu"
+				 HorizontalTextAlignment = "Center"
+                 FontSize="20"
+				 FontAttributes="Bold"
+                 VerticalOptions="CenterAndExpand"
+                 TextColor="Black"
+				 BackgroundColor = "Red"/>
+        </StackLayout>
+
+        <ListView x:Name="navigationDrawerList"
+                  RowHeight="60"
+                  SeparatorVisibility="None"
+                  BackgroundColor="#e8e8e8"
+                  ItemSelected="OnMenuItemSelected">
+
+          <ListView.ItemTemplate>
+            <DataTemplate>
+              <ViewCell>
+                
+                <!-- Main design for our menu items -->
+                <StackLayout VerticalOptions="FillAndExpand"
+                             Orientation="Horizontal"
+                             Padding="20,0,0,10"
+                             Spacing="20">
+
+                  <Image Source="{Binding Icon}"
+                         WidthRequest="40"
+                         HeightRequest="40"
+                         VerticalOptions="Center" />
+
+                  <Label Text="{Binding Title}"
+                         FontSize="Medium"
+                         VerticalOptions="Center"
+                         TextColor="Black"/>
+                </StackLayout>
+              </ViewCell>
+            </DataTemplate>
+          </ListView.ItemTemplate>
+        </ListView>
+      </StackLayout>
+
+    </ContentPage>
+  </MasterDetailPage.Master>
+
+  <MasterDetailPage.Detail >
+    <NavigationPage BackgroundColor = "Red">
+    </NavigationPage>
+  </MasterDetailPage.Detail>
+</MasterDetailPage>
