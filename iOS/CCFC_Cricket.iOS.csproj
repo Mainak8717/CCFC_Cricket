@@ -129,6 +129,11 @@
     <BundleResource Include="Resources\Gallery_Icon.png" />
     <BundleResource Include="Resources\SideMenu_Icon.png" />
     <BundleResource Include="Resources\ccfc.jpg" />
+    <BundleResource Include="Resources\wasim.jpg" />
+    <BundleResource Include="Resources\irfy.jpg" />
+    <BundleResource Include="Resources\mainak.jpg" />
+    <BundleResource Include="Resources\Zaffy.jpg" />
+    <BundleResource Include="Resources\irfan.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.3.4.224\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.3.4.224\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />

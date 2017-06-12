@@ -15,7 +15,6 @@ namespace CCFC_Cricket
 			menuList = new List<SideMenuItem>();
 
 		// Creating our pages for menu navigation
-		// Here you can define title for item, 
 		// icon on the left side, and page that you want to open after selection
 			var page1 = new SideMenuItem() { Title = "Home", Icon = "Home_Icon.png"};
 			var page2 = new SideMenuItem() { Title = "Games", Icon = "Games_Icon.png"};

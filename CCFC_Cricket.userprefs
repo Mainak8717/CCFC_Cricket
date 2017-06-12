@@ -2,13 +2,11 @@
   <MonoDevelop.Ide.ItemProperties.CCFC__Cricket.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Xamarin_Android_API_15" />
   <MonoDevelop.Ide.Workbench ActiveDocument="CCFC_Cricket Status">
     <Files>
-      <File FileName="CCFC_CricketHomeScreen.xaml" Line="12" Column="67" />
-      <File FileName="CCFC_CricketPage.xaml.cs" Line="37" Column="1" />
-      <File FileName="CCFC_CricketPage.xaml" Line="13" Column="42" />
+      <File FileName="CCFC_CricketHomeScreen.xaml" Line="16" Column="52" />
       <File FileName="CCFC_Cricket Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.CCFC__Cricket.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C6481B53-81B0-4E10-AF35-C0C5C6E7BC8C" />
+  <MonoDevelop.Ide.ItemProperties.CCFC__Cricket.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E48B4C87-6E51-449A-974B-D2D685100032" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

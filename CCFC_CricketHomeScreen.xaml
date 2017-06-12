@@ -5,11 +5,17 @@
 	Title = "Home">
 	<StackLayout Orientation = "Vertical" HorizontalOptions = "CenterAndExpand">
 		<Image Source = "ccfc.jpg" HorizontalOptions = "CenterAndExpand"/>
+		<Label Text = "Cricket Season 2017-18" HorizontalOptions = "CenterAndExpand" HorizontalTextAlignment = "Center" />
 		<ScrollView Orientation = "Vertical">
-			<StackLayout Orientation = "Vertical" HorizontalOptions = "Start" >
-				<Label Text = "Captain – Mr. Irfan Ahmed" HorizontalOptions = "Start" HorizontalTextAlignment = "Start" />
-				<Label Text = "Email: irfanccfc@yahoo.co.in" HorizontalOptions = "Start" HorizontalTextAlignment = "Start" />
-				<Label Text = "Mob: +91 9830020435" HorizontalOptions = "Start" HorizontalTextAlignment = "Start" />
+			<StackLayout Orientation = "Vertical" Padding = "10,10,10,10" Spacing = "20">
+				<Image Source = "irfan.jpg" HorizontalOptions = "Center"/>
+				<Label Text = "Captain – Mr. Irfan Ahmed" HorizontalOptions = "Center" HorizontalTextAlignment = "Center" />
+			    <Image Source = "mainak.jpg" HorizontalOptions = "Center"/>
+				<Label Text = "Joint Secy – Mr. Mainak Choudhury" HorizontalOptions = "Center" HorizontalTextAlignment = "Center" />
+			    <Image Source = "Zaffy.jpg" HorizontalOptions = "Center"/>
+				<Label Text = "Joint Secy – Mr. Zafar Aziz Khan" HorizontalOptions = "Center" HorizontalTextAlignment = "Center" />
+
+
 			</StackLayout>
 		</ScrollView>
 	</StackLayout>

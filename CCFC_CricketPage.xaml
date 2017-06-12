@@ -10,7 +10,7 @@
                  BackgroundColor="#ff0000">
 
       <StackLayout Orientation="Vertical" BackgroundColor = "Red" >
-        <StackLayout BackgroundColor="Green"
+        <StackLayout BackgroundColor="Red"
                      HeightRequest="59">
 
           <Label Text="Menu"
