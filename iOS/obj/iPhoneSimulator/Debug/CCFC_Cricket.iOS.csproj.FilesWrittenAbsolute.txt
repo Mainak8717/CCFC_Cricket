@@ -20,3 +20,4 @@
 /Users/rajlakshmi/Desktop/CCFC_Cricket/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
 /Users/rajlakshmi/Desktop/CCFC_Cricket/iOS/bin/iPhoneSimulator/Debug/CCFC_Cricket.dll
 /Users/rajlakshmi/Desktop/CCFC_Cricket/iOS/bin/iPhoneSimulator/Debug/CCFC_Cricket.pdb
+/Users/rajlakshmi/Desktop/CCFC_Cricket/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.2/optimized/team_icon.png

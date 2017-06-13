@@ -17,11 +17,12 @@ namespace CCFC_Cricket
 		// Creating our pages for menu navigation
 		// icon on the left side, and page that you want to open after selection
 			var page1 = new SideMenuItem() { Title = "Home", Icon = "Home_Icon.png"};
-			var page2 = new SideMenuItem() { Title = "Games", Icon = "Games_Icon.png"};
-			var page3 = new SideMenuItem() { Title = "Tournaments", Icon = "Tournament_Icon.png"};
-			var page4 = new SideMenuItem() { Title = "Merchants Cup", Icon = "MerchantsCup_Icon.png"};
-			var page5 = new SideMenuItem() { Title = "Gallery", Icon = "Gallery_Icon.png"};
-			var page6 = new SideMenuItem() { Title = "CCFC Pro Team", Icon = "ProTeam_Icon.png" };
+			var page2 = new SideMenuItem() { Title = "Teams", Icon = "team_icon.png"};
+			var page3 = new SideMenuItem() { Title = "Games", Icon = "Games_Icon.png"};
+			var page4 = new SideMenuItem() { Title = "Tournaments", Icon = "Tournament_Icon.png"};
+			var page5 = new SideMenuItem() { Title = "Merchants Cup", Icon = "MerchantsCup_Icon.png"};
+			var page6 = new SideMenuItem() { Title = "Gallery", Icon = "Gallery_Icon.png"};
+			var page7 = new SideMenuItem() { Title = "CCFC Pro Team", Icon = "ProTeam_Icon.png" };
 
 
 		// Adding menu items to menuList
@@ -31,6 +32,7 @@ namespace CCFC_Cricket
 			menuList.Add(page4);
 			menuList.Add(page5);
 			menuList.Add(page6);
+			menuList.Add(page7);
 
 			navigationDrawerList.ItemsSource = menuList;
 			Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(CCFC_CricketHomeScreen))) { 
