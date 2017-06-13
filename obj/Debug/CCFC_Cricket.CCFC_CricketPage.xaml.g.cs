@@ -11,7 +11,7 @@
 namespace CCFC_Cricket {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/Mainak/Desktop/CCFC_Cricket/CCFC_CricketPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/rajlakshmi/Desktop/CCFC_Cricket/CCFC_CricketPage.xaml")]
     public partial class CCFC_CricketPage : global::Xamarin.Forms.MasterDetailPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

@@ -1,22 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-	x:Class="CCFC_Cricket.CCFC_CricketHomeScreen"
-	Title = "Home">
-	<StackLayout Orientation = "Vertical" HorizontalOptions = "CenterAndExpand">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CCFC_Cricket.CCFC_CricketHomeScreen" Title="Home">
+	<StackLayout Orientation = "Vertical" HorizontalOptions = "FillAndExpand" VerticalOptions ="FillAndExpand">
 		<Image Source = "ccfc.jpg" HorizontalOptions = "CenterAndExpand"/>
-		<Label Text = "Cricket Season 2017-18" HorizontalOptions = "CenterAndExpand" HorizontalTextAlignment = "Center" />
-		<ScrollView Orientation = "Vertical">
-			<StackLayout Orientation = "Vertical" Padding = "10,10,10,10" Spacing = "20">
-				<Image Source = "irfan.jpg" HorizontalOptions = "Center"/>
-				<Label Text = "Captain – Mr. Irfan Ahmed" HorizontalOptions = "Center" HorizontalTextAlignment = "Center" />
-			    <Image Source = "mainak.jpg" HorizontalOptions = "Center"/>
-				<Label Text = "Joint Secy – Mr. Mainak Choudhury" HorizontalOptions = "Center" HorizontalTextAlignment = "Center" />
-			    <Image Source = "Zaffy.jpg" HorizontalOptions = "Center"/>
-				<Label Text = "Joint Secy – Mr. Zafar Aziz Khan" HorizontalOptions = "Center" HorizontalTextAlignment = "Center" />
-
-
-			</StackLayout>
-		</ScrollView>
+		<Label Text = "Cricket Season 2017-18" HorizontalOptions = "CenterAndExpand" HorizontalTextAlignment = "Center"/>
+		<ListView x:Name="myList" CachingStrategy="RecycleElement" RowHeight="150" SeparatorVisibility="None">
+			<ListView.ItemTemplate>
+				<DataTemplate>
+					<ViewCell>
+						<Grid>
+							<Grid.ColumnDefinitions>
+								<ColumnDefinition Width="*" />
+								<ColumnDefinition Width="*" />
+							</Grid.ColumnDefinitions>
+							<StackLayout Orientation="Vertical" Padding="10,10,10,10">
+								<Image Source="{Binding memberOne.imageSource}" />
+								<Label FontSize = "12" Text="{Binding memberOne.designation}" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
+								<Label FontSize = "12" Text="{Binding memberOne.displayName}" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" />
+							</StackLayout>
+							<StackLayout Grid.Column="1" Orientation="Vertical" Padding="10,10,10,10">
+								<Image Source="{Binding memberTwo.imageSource}" />
+								<Label FontSize = "12" Text="{Binding memberTwo.designation}" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
+								<Label FontSize = "12" Text="{Binding memberTwo.displayName}" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" />
+							</StackLayout>
+						</Grid>
+					</ViewCell>
+				</DataTemplate>
+			</ListView.ItemTemplate>
+		</ListView>
 	</StackLayout>
 </ContentPage>
