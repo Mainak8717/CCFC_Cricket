@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CCFC_Cricket.CCFC_CricketHomeScreen" Title="Home">
 	<StackLayout Orientation = "Vertical" HorizontalOptions = "FillAndExpand" VerticalOptions ="FillAndExpand">
-		<Image Source = "ccfc.jpg" HorizontalOptions = "CenterAndExpand"/>
-		<Label Text = "Cricket Season 2017-18" HorizontalOptions = "CenterAndExpand" HorizontalTextAlignment = "Center"/>
+		<Image Source = "ccfc.jpg" HorizontalOptions = "FillAndExpand"/>
+		<Label Text = "Cricket Season 2017-18" HorizontalOptions = "CenterAndExpand" HorizontalTextAlignment = "Center" FontAttributes = "Bold"/>
 		<ListView x:Name="myList" CachingStrategy="RecycleElement" RowHeight="150" SeparatorVisibility="None">
 			<ListView.ItemTemplate>
 				<DataTemplate>
@@ -13,14 +13,14 @@
 								<ColumnDefinition Width="*" />
 							</Grid.ColumnDefinitions>
 							<StackLayout Orientation="Vertical" Padding="10,10,10,10">
-								<Image Source="{Binding memberOne.imageSource}" />
-								<Label FontSize = "12" Text="{Binding memberOne.designation}" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
-								<Label FontSize = "12" Text="{Binding memberOne.displayName}" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" />
+								<Image Source="{Binding memberOne.imageSource}" HorizontalOptions ="FillAndExpand" VerticalOptions = "FillAndExpand" />
+								<Label FontSize = "16" Text="{Binding memberOne.designation}" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" FontAttributes = "Bold"/>
+								<Label FontSize = "12" Text="{Binding memberOne.displayName}" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" />
 							</StackLayout>
 							<StackLayout Grid.Column="1" Orientation="Vertical" Padding="10,10,10,10">
-								<Image Source="{Binding memberTwo.imageSource}" />
-								<Label FontSize = "12" Text="{Binding memberTwo.designation}" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
-								<Label FontSize = "12" Text="{Binding memberTwo.displayName}" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" />
+								<Image Source="{Binding memberTwo.imageSource}" HorizontalOptions ="FillAndExpand" VerticalOptions = "FillAndExpand" />
+								<Label FontSize = "16" Text="{Binding memberTwo.designation}" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" FontAttributes = "Bold"/>
+								<Label FontSize = "12" Text="{Binding memberTwo.displayName}" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" />
 							</StackLayout>
 						</Grid>
 					</ViewCell>
