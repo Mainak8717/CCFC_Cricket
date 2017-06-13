@@ -135,6 +135,26 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\Tournament_Icon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\Games_Icon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\Home_Icon.png" />
+    <AndroidResource Include="Resources\drawable\team_icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\team_icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\team_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\team_icon.png" />
+    <AndroidResource Include="Resources\drawable\irfan.jpg" />
+    <AndroidResource Include="Resources\drawable\mainak.jpg" />
+    <AndroidResource Include="Resources\drawable\Zaffy.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\irfan.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\mainak.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\Zaffy.jpg" />
+    <AndroidResource Include="Resources\drawable-xhdpi\irfan.jpg" />
+    <AndroidResource Include="Resources\drawable-xhdpi\mainak.jpg" />
+    <AndroidResource Include="Resources\drawable-xhdpi\Zaffy.jpg" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\irfan.jpg" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\mainak.jpg" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Zaffy.jpg" />
+    <AndroidResource Include="Resources\drawable\ccfc.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\ccfc.jpg" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ccfc.jpg" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ccfc.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets')" />
