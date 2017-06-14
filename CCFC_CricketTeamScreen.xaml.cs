@@ -5,6 +5,7 @@ using Xamarin.Forms;
 using System.Linq;
 using System.Reflection.Emit;
 using System.Text;
+
 namespace CCFC_Cricket
 {
 	public partial class CCFC_CricketTeamScreen : ContentPage
@@ -48,33 +49,32 @@ namespace CCFC_Cricket
 
 		void Handle_TeamButton_Clicked(object sender, System.EventArgs e)
 		{
-			Button button = sender as Button;
 
 			switch ((sender as Button).Text)
-                {
-	                case "A Team":
-						A_Line.IsVisible = true;
-						B_Line.IsVisible = false;
-						C_Line.IsVisible = false;	
-						TeamMembersListView.ItemsSource = Team_A_MembersList;
-	                    break;
-					case "B Team":
+			{
+				case "A Team":
+					A_Line.IsVisible = true;
+					B_Line.IsVisible = false;
+					C_Line.IsVisible = false;
+					TeamMembersListView.ItemsSource = Team_A_MembersList;
+					break;
+				case "B Team":
 					{
 						A_Line.IsVisible = false;
 						B_Line.IsVisible = true;
-						C_Line.IsVisible = false;	
+						C_Line.IsVisible = false;
 						TeamMembersListView.ItemsSource = Team_B_MembersList;
 					}
-	                    break;
-					case "C Team":
+					break;
+				case "C Team":
 					{
 						A_Line.IsVisible = false;
 						B_Line.IsVisible = false;
-						C_Line.IsVisible = true;	
+						C_Line.IsVisible = true;
 						TeamMembersListView.ItemsSource = Team_C_MembersList;
 					}
 					break;
-					case "Pro Team":
+				case "Pro Team":
 					{
 						//Button_A.BackgroundColor = Color.White;
 						//Button_B.BackgroundColor = Color.White;
@@ -82,10 +82,10 @@ namespace CCFC_Cricket
 						//Button_Pro.BackgroundColor = Color.Gray;	
 						TeamMembersListView.ItemsSource = Team_Pro_MembersList;
 					}
-	                    break;
-	                default:
-	                    break;
-               }
+					break;
+				default:
+					break;
+			}
 		}
 	}
 }

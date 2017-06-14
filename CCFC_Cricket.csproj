@@ -61,6 +61,7 @@
     <Compile Include="CCFC_CricketCalendarScreen.xaml.cs">
       <DependentUpon>CCFC_CricketCalendarScreen.xaml</DependentUpon>
     </Compile>
+    <Compile Include="CalendarGamesModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
