@@ -16,7 +16,7 @@ namespace CCFC_Cricket
 
 		// Creating our pages for menu navigation
 		// icon on the left side, and page that you want to open after selection
-			var page1 = new SideMenuItem() { Title = "Home", Icon = "Home_Icon.png"};
+			var page1 = new SideMenuItem() { Title = "Home", Icon = "Home_Icon.png",TargetType = typeof(CCFC_CricketHomeScreen)};
 			var page2 = new SideMenuItem() { Title = "Teams", Icon = "team_icon.png",TargetType = typeof(CCFC_CricketTeamScreen)};
 			var page3 = new SideMenuItem() { Title = "Games", Icon = "Games_Icon.png"};
 			var page4 = new SideMenuItem() { Title = "Tournaments", Icon = "Tournament_Icon.png"};

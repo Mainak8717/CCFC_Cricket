@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CCFC_Cricket.CCFC_CricketCalendarScreen">
+
+<ListView  x:Name="lstView" RowHeight="60" IsGroupingEnabled="true" SeparatorVisibility = "None" GroupDisplayBinding="{Binding LongName}" HasUnevenRows = "true">
+			<ListView.GroupHeaderTemplate>
+            	<DataTemplate>
+              		<ViewCell Height="40">
+                		<StackLayout BackgroundColor="Gray" Padding="10">
+                  			<Label Text="{Binding LongName}" TextColor="Black" />
+                		</StackLayout>
+              		</ViewCell>
+           	 	</DataTemplate>
+         	</ListView.GroupHeaderTemplate>
+			<ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                      	<StackLayout Orientation = "Vertical" HorizontalOptions = "StartAndExpand" Padding = "5,5,5,5">
+							<Label Text = "C Team vs Belgachia United Club" FontAttributes = "Bold" HorizontalTextAlignment = "Start"/>
+							<Label Text = "Time - 10:00 AM"  HorizontalTextAlignment = "Start"/>
+							<Label Text = "Venue - CCFC Ground" HorizontalTextAlignment = "Start"/>
+
+					</StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView> 
+	
+</ContentPage>

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using Newtonsoft.Json;
+//using Newtonsoft.Json;
 using Xamarin.Forms;
 
 using System.Net;
@@ -42,22 +42,22 @@ namespace CCFC_Cricket
 			myList.ItemsSource = membersListWrapper;
 
 
-			getWebService();
+			//getWebService();
 
 
 		}
 
-		public async void getWebService()
-		{
-			var client = new System.Net.Http.HttpClient();
+		//public async void getWebService()
+		//{
+		//	var client = new System.Net.Http.HttpClient();
 
-			client.BaseAddress = new Uri("http://api.geonames.org/");
+		//	client.BaseAddress = new Uri("http://api.geonames.org/");
 
-			var response = await client.GetAsync("earthquakesJSON?north=44.1&south=-9.9&east=-22.4&west=55.2&username=bertt");
+		//	var response = await client.GetAsync("earthquakesJSON?north=44.1&south=-9.9&east=-22.4&west=55.2&username=bertt");
 
-			var earthquakesJson = response.Content.ReadAsStringAsync().Result;
+		//	var earthquakesJson = response.Content.ReadAsStringAsync().Result;
 
-			var rootobject = JsonConvert.DeserializeObject<CommitteeMembers>(earthquakesJson);
-		}
+		//	var rootobject = JsonConvert.DeserializeObject<CommitteeMembers>(earthquakesJson);
+		//}
 	}
 }

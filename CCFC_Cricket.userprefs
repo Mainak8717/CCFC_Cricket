@@ -2,6 +2,13 @@
   <MonoDevelop.Ide.ItemProperties.CCFC__Cricket.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Xamarin_Android_API_15" />
   <MonoDevelop.Ide.Workbench ActiveDocument="CCFC_Cricket Status">
     <Files>
+      <File FileName="CCFC_CricketHomeScreen.xaml.cs" Line="4" Column="3" />
+      <File FileName="CCFC_CricketHomeScreen.xaml" Line="1" Column="1" />
+      <File FileName="SideMenuItem.cs" Line="1" Column="1" />
+      <File FileName="CCFC_CricketPage.xaml" Line="1" Column="1" />
+      <File FileName="CCFC_CricketPage.xaml.cs" Line="19" Column="118" />
+      <File FileName="CCFC_CricketCalendarScreen.xaml" Line="20" Column="43" />
+      <File FileName="CCFC_CricketCalendarScreen.xaml.cs" Line="16" Column="38" />
       <File FileName="CCFC_Cricket Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
