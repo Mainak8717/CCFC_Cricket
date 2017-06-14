@@ -1,5 +1,5 @@
-﻿<Properties StartupConfiguration="{142C374D-AA93-4276-8DEA-F3689A086152}|Default" GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.ItemProperties.CCFC__Cricket.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.03157df340159640" />
+﻿<Properties StartupConfiguration="{EBC0B4FE-829A-440A-A6E8-4863506051B4}|Default" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.ItemProperties.CCFC__Cricket.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Xamarin_Android_API_15" />
   <MonoDevelop.Ide.Workbench ActiveDocument="CCFC_Cricket Status">
     <Files>
       <File FileName="CCFC_Cricket Status" />
@@ -8,7 +8,9 @@
   <MonoDevelop.Ide.ItemProperties.CCFC__Cricket.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C6481B53-81B0-4E10-AF35-C0C5C6E7BC8C" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/rajlakshmi/Desktop/CCFC_Cricket/CCFC_CricketHomeScreen.xaml.cs" relfile="CCFC_CricketHomeScreen.xaml.cs" line="52" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />

@@ -33,6 +33,9 @@
     <EmbeddedResource Include="CCFC_CricketHomeScreen.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="CCFC_CricketTeamScreen.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -48,6 +51,10 @@
     </Compile>
     <Compile Include="CommitteeMembers.cs" />
     <Compile Include="CommitteMemberWrapper.cs" />
+    <Compile Include="CCFC_CricketTeamScreen.xaml.cs">
+      <DependentUpon>CCFC_CricketTeamScreen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TeamMembers.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
@@ -58,6 +65,9 @@
     </Reference>
     <Reference Include="Xamarin.Forms.Xaml">
       <HintPath>packages\Xamarin.Forms.2.3.4.247\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.Xaml.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

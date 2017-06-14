@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="CCFC_Cricket.CCFC_CricketTeamScreen">
+
+	<StackLayout Orientation = "Vertical">
+		<StackLayout Orientation = "Horizontal">
+			<StackLayout Orientation = "Vertical" HorizontalOptions = "FillAndExpand">
+				<Button x:Name= "ATeam" 
+					Text = "A Team"
+					TextColor = "Black"
+		 			BackgroundColor = "White" 
+					BorderRadius = "7" 
+			    	HeightRequest = "40" 
+			    	HorizontalOptions = "FillAndExpand"
+					Clicked = "Handle_TeamButton_Clicked"/>
+				<BoxView x:Name ="A_Line" Color= "Black" HeightRequest ="2"></BoxView>
+			</StackLayout>
+			<StackLayout Orientation = "Vertical" HorizontalOptions = "FillAndExpand">
+				<Button x:Name= "BTeam" 
+					Text = "B Team"
+					TextColor = "Black"
+		 			BackgroundColor ="White" 
+					BorderRadius = "7" 
+			   		HeightRequest = "40" 
+			   	    HorizontalOptions = "FillAndExpand"
+					Clicked = "Handle_TeamButton_Clicked"/>
+				<BoxView x:Name ="B_Line" Color= "Black" HeightRequest ="2"></BoxView>
+			</StackLayout>
+			<StackLayout Orientation = "Vertical" HorizontalOptions = "FillAndExpand">
+				<Button x:Name = "CTeam" 
+					Text = "C Team"
+					TextColor = "Black"
+		 			BackgroundColor = "White" 
+					BorderRadius = "7" 
+			   		HeightRequest ="40" 
+			    	HorizontalOptions = "FillAndExpand"
+					Clicked = "Handle_TeamButton_Clicked"/>
+				<BoxView x:Name ="C_Line" Color= "Black" HeightRequest ="2"></BoxView>
+			</StackLayout>
+		</StackLayout>
+	<ListView x:Name="TeamMembersListView" SeparatorVisibility ="None">
+	    <ListView.ItemTemplate>
+	      <DataTemplate>
+	        <TextCell Text="{Binding displayName}" />
+	      </DataTemplate>
+	    </ListView.ItemTemplate>
+  </ListView>
+		</StackLayout>
+</ContentPage>
