@@ -46,13 +46,6 @@
 	      </DataTemplate>
 	    </ListView.ItemTemplate>
   </ListView>
-<ListView x:Name="myListView">
-    <ListView.ItemTemplate>
-      <DataTemplate>
-        <TextCell Text="{Binding DisplayName}" />
-      </DataTemplate>
-    </ListView.ItemTemplate>
-  </ListView>
-				</StackLayout>
+</StackLayout>
 
 </ContentPage>

@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CCFC_Cricket.CCFC_CricketCalendarScreen">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="CCFC_Cricket.CCFC_CricketCalendarScreen" BackgroundImage = "Home_Icon.png">
 
-<ListView  x:Name="lstView" RowHeight="100" IsGroupingEnabled="true" SeparatorVisibility = "None" GroupDisplayBinding="{Binding LongName}" HasUnevenRows = "true">
+<ListView  x:Name="lstView" RowHeight="100" IsGroupingEnabled="true" SeparatorVisibility = "Default" GroupDisplayBinding="{Binding LongName}" HasUnevenRows = "true">
 			<ListView.GroupHeaderTemplate>
             	<DataTemplate>
-              		<ViewCell Height="40">
-                		<StackLayout BackgroundColor="Lime" Padding="10">
-                  			<Label Text="{Binding LongName}" TextColor="Black" />
+              		<ViewCell Height="30">
+                		<StackLayout Padding="5" HorizontalOptions = "FillAndExpand" BackgroundColor = "#ff6666">
+                  			<Label Text="{Binding LongName}" TextColor="Blue" HorizontalTextAlignment = "Center" FontAttributes = "Bold"/>
                 		</StackLayout>
               		</ViewCell>
            	 	</DataTemplate>
@@ -14,11 +15,11 @@
 			<ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                      	<StackLayout Orientation = "Vertical" HorizontalOptions = "StartAndExpand" Padding = "5,10,5,10" BackgroundColor = "Fuchsia">
-							<Label Text = "{Binding teamName_One}" FontAttributes = "Bold" HorizontalTextAlignment = "Start"/>
-							<Label Text = "{Binding gameTime}"  HorizontalTextAlignment = "Start"/>
-							<Label Text = "{Binding gameVenue}" HorizontalTextAlignment = "Start"/>
-							<StackLayout HeightRequest = "20" HorizontalOptions = "StartAndExpand"/>
+                      	<StackLayout Orientation = "Vertical" HorizontalOptions = "StartAndExpand" Padding = "5,10,5,10">
+							<Label Text = "{Binding matchDescription}" FontAttributes = "Bold" HorizontalTextAlignment = "Start"/>
+							<Label Text = "{Binding gameTime}"  HorizontalTextAlignment = "Start" TextColor = "Gray"/>
+							<Label Text = "{Binding gameVenue}" HorizontalTextAlignment = "Start" TextColor = "Gray"/>
+							<StackLayout HeightRequest = "5" HorizontalOptions = "StartAndExpand"/>
 					</StackLayout>
                     </ViewCell>
                 </DataTemplate>

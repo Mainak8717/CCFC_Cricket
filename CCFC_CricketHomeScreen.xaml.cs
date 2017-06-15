@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-//using Newtonsoft.Json;
+using Newtonsoft.Json;
 using Xamarin.Forms;
 
 using System.Net;
 using System.Threading.Tasks;
+using System.IO;
+using Newtonsoft.Json.Linq;
 
 namespace CCFC_Cricket
 {
@@ -47,17 +49,33 @@ namespace CCFC_Cricket
 
 		}
 
-		//public async void getWebService()
-		//{
-		//	var client = new System.Net.Http.HttpClient();
+		public async void getWebService()
+		{
 
-		//	client.BaseAddress = new Uri("http://api.geonames.org/");
 
-		//	var response = await client.GetAsync("earthquakesJSON?north=44.1&south=-9.9&east=-22.4&west=55.2&username=bertt");
 
-		//	var earthquakesJson = response.Content.ReadAsStringAsync().Result;
+//			JObject o1 = JObject.Parse(File.ReadAllText(@"c:\videogames.json"));
 
-		//	var rootobject = JsonConvert.DeserializeObject<CommitteeMembers>(earthquakesJson);
-		//}
+//StreamReader strm = new StreamReader(Assets.Open("form.json"));
+
+//			using (StreamReader r = System.IO..OpenText("file.json"))
+//			 {
+//			        string json = r.ReadToEnd();
+//					List<CalendarGamesModel> items = JsonConvert.DeserializeObject<List<CalendarGamesModel>>(json);
+//			 }
+
+			//CalendarGamesModel course = Newtonsoft.Json.JsonConvert.DeserializeObject<CalendarGamesModel>(System.IO.File.ReadAllText("YOUR_FILE_PATH\file.json")); 
+
+
+			//var client = new System.Net.Http.HttpClient();
+
+			//client.BaseAddress = new Uri("http://api.geonames.org/");
+
+			//var response = await client.GetAsync("earthquakesJSON?north=44.1&south=-9.9&east=-22.4&west=55.2&username=bertt");
+
+			//var earthquakesJson = response.Content.ReadAsStringAsync().Result;
+
+			//var rootobject = JsonConvert.DeserializeObject<CommitteeMembers>(earthquakesJson);
+		}
 	}
 }
