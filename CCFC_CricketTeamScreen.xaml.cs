@@ -23,20 +23,55 @@ namespace CCFC_Cricket
 			Team_A_MembersList.Add(new TeamMembers() {displayName = "Mr. Wasim Aziz"});
 			Team_A_MembersList.Add(new TeamMembers() {displayName = "Mr. Mainak Choudhury"});
 			Team_A_MembersList.Add(new TeamMembers() {displayName = "Mr. Zafar Aziz Khan"});
+			Team_A_MembersList.Add(new TeamMembers() {displayName = "Mr. Ishanjit Ghosh"});
+			Team_A_MembersList.Add(new TeamMembers() {displayName = "Mr. Tariq Aziz Khan"});
+			Team_A_MembersList.Add(new TeamMembers() {displayName = "Mr. Mainak Choudhury"});
+			Team_A_MembersList.Add(new TeamMembers() {displayName = "Mr. O.P Tiwari"});
+			Team_A_MembersList.Add(new TeamMembers() { displayName = "Mr. Irfan Ahmed"});
+			Team_A_MembersList.Add(new TeamMembers() { displayName = "Mr. Wasim Aziz"});
+			Team_A_MembersList.Add(new TeamMembers() { displayName = "Mr. Mainak Choudhury"});
+			Team_A_MembersList.Add(new TeamMembers() { displayName = "Mr. Zafar Aziz Khan"});
+			Team_A_MembersList.Add(new TeamMembers() { displayName = "Mr. Ishanjit Ghosh"});
+			Team_A_MembersList.Add(new TeamMembers() { displayName = "Mr. Tariq Aziz Khan"});
+			Team_A_MembersList.Add(new TeamMembers() { displayName = "Mr. Mainak Choudhury"});
+			Team_A_MembersList.Add(new TeamMembers() { displayName = "Mr. O.P Tiwari"});
 
 			TeamMembersListView.ItemsSource = Team_A_MembersList;
 
+			A_Line.IsVisible = true;
+			B_Line.IsVisible = false;
+			C_Line.IsVisible = false;
+
 			Team_B_MembersList = new ObservableCollection<TeamMembers>();
-			Team_B_MembersList.Add(new TeamMembers() { displayName = "Mr. A"});
-			Team_B_MembersList.Add(new TeamMembers() { displayName = "Mr. B"});
-			Team_B_MembersList.Add(new TeamMembers() { displayName = "Mr. C"});
-			Team_B_MembersList.Add(new TeamMembers() { displayName = "Mr. D"});
+			Team_B_MembersList.Add(new TeamMembers() { displayName = "Mr. Wasim Aziz"});
+			Team_B_MembersList.Add(new TeamMembers() { displayName = "Mr. Mainak Choudhury"});
+			Team_B_MembersList.Add(new TeamMembers() { displayName = "Mr. Zafar Aziz Khan"});
+			Team_B_MembersList.Add(new TeamMembers() { displayName = "Mr. Ishanjit Ghosh"});
+			Team_B_MembersList.Add(new TeamMembers() { displayName = "Mr. Irfan Ahmed"});
+			Team_B_MembersList.Add(new TeamMembers() { displayName = "Mr. Wasim Aziz"});
+			Team_B_MembersList.Add(new TeamMembers() { displayName = "Mr. Mainak Choudhury"});
+			Team_B_MembersList.Add(new TeamMembers() { displayName = "Mr. Zafar Aziz Khan"});
+			Team_B_MembersList.Add(new TeamMembers() { displayName = "Mr. Ishanjit Ghosh"});
+			Team_B_MembersList.Add(new TeamMembers() { displayName = "Mr. Tariq Aziz Khan"});
+			Team_B_MembersList.Add(new TeamMembers() { displayName = "Mr. Mainak Choudhury"});
+			Team_B_MembersList.Add(new TeamMembers() { displayName = "Mr. O.P Tiwari"});
+			Team_B_MembersList.Add(new TeamMembers() { displayName = "Mr. Irfan Ahmed"});
+			Team_B_MembersList.Add(new TeamMembers() { displayName = "Mr. Tariq Aziz Khan"});
+			Team_B_MembersList.Add(new TeamMembers() { displayName = "Mr. Mainak Choudhury"});
+			Team_B_MembersList.Add(new TeamMembers() { displayName = "Mr. O.P Tiwari"});
 
 			Team_C_MembersList = new ObservableCollection<TeamMembers>();
-			Team_C_MembersList.Add(new TeamMembers() { displayName = "Mr. X"});
-			Team_C_MembersList.Add(new TeamMembers() { displayName = "Mr. Y"});
-			Team_C_MembersList.Add(new TeamMembers() { displayName = "Mr. Z"});
-			Team_C_MembersList.Add(new TeamMembers() { displayName = "Mr. L"});
+			Team_C_MembersList.Add(new TeamMembers() { displayName = "Mr. Navendu Mathur"});
+			Team_C_MembersList.Add(new TeamMembers() { displayName = "Mr. Vivek Bhasin"});
+			Team_C_MembersList.Add(new TeamMembers() { displayName = "Mr. Vishal Sahay"});
+			Team_C_MembersList.Add(new TeamMembers() { displayName = "Mr. Babul Das"});
+			Team_C_MembersList.Add(new TeamMembers() { displayName = "Mr. Gaurav Ghosh"});
+			Team_C_MembersList.Add(new TeamMembers() { displayName = "Mr. Arun Lal"});
+			Team_C_MembersList.Add(new TeamMembers() { displayName = "Mr. Derek O Brian"});
+			Team_C_MembersList.Add(new TeamMembers() { displayName = "Mr. Atul Chaturvedi"});
+			Team_C_MembersList.Add(new TeamMembers() { displayName = "Mr. Amit Kundu"});
+			Team_C_MembersList.Add(new TeamMembers() { displayName = "Mr. Babul Mitter"});
+
 
 			Team_Pro_MembersList = new ObservableCollection<TeamMembers>();
 			Team_Pro_MembersList.Add(new TeamMembers() { displayName = "Mr. P"});

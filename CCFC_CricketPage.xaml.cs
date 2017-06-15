@@ -18,8 +18,8 @@ namespace CCFC_Cricket
 		// icon on the left side, and page that you want to open after selection
 			var page1 = new SideMenuItem() { Title = "Home", Icon = "Home_Icon.png",TargetType = typeof(CCFC_CricketHomeScreen)};
 			var page2 = new SideMenuItem() { Title = "Teams", Icon = "team_icon.png",TargetType = typeof(CCFC_CricketTeamScreen)};
-			var page3 = new SideMenuItem() { Title = "Games", Icon = "Games_Icon.png",TargetType = typeof(CCFC_CricketCalendarScreen)};
-			var page4 = new SideMenuItem() { Title = "Tournaments", Icon = "Tournament_Icon.png"};
+			var page3 = new SideMenuItem() { Title = "Calendar 2017", Icon = "Calendar_Icon.png",TargetType = typeof(CCFC_CricketCalendarScreen)};
+			var page4 = new SideMenuItem() { Title = "Tournaments", Icon = "Tournament_Icon.png",TargetType = typeof(CCFC_CricketTournamentsScreen)};
 			var page5 = new SideMenuItem() { Title = "Merchants Cup", Icon = "MerchantsCup_Icon.png"};
 			var page6 = new SideMenuItem() { Title = "Gallery", Icon = "Gallery_Icon.png"};
 			var page7 = new SideMenuItem() { Title = "CCFC Pro Team", Icon = "ProTeam_Icon.png" };
@@ -35,9 +35,7 @@ namespace CCFC_Cricket
 			menuList.Add(page7);
 
 			navigationDrawerList.ItemsSource = menuList;
-			Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(CCFC_CricketHomeScreen))) { 
-				BarBackgroundColor = Color.Red
-			};
+			Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(CCFC_CricketHomeScreen)));
 
 	 	}
 		private void OnMenuItemSelected(object sender, SelectedItemChangedEventArgs e)

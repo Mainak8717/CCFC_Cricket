@@ -8,10 +8,13 @@ namespace CCFC_Cricket
 		{
 			InitializeComponent();
 
-			MainPage = new NavigationPage(new CCFC_CricketPage())
-    		{
-				BarBackgroundColor = Color.Red
-    		};
+
+			var nav = new NavigationPage
+			{
+				Title = "Detail"
+			};
+			nav.PushAsync(new CCFC_CricketPage() { Title = "Home" });
+			MainPage = nav;
 		}
 
 		protected override void OnStart()

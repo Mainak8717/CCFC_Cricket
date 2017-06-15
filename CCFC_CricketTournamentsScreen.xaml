@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="CCFC_Cricket.CCFC_CricketTournamentsScreen">
+		<StackLayout Orientation = "Vertical">
+
+		<StackLayout Orientation = "Horizontal" Spacing = "0" HorizontalOptions = "FillAndExpand">
+			<StackLayout Orientation = "Vertical" HorizontalOptions = "FillAndExpand" Spacing = "2" BackgroundColor = "#e61919">
+				<Button x:Name= "DomesticButton" 
+					Text = "Domestic"
+					TextColor = "White"
+		 			BackgroundColor = "#e61919" 
+			    	HeightRequest = "40"
+					BorderRadius = "0" 
+			    	HorizontalOptions = "FillAndExpand"
+					Clicked = "Handle_Button_Clicked"/>
+				<BoxView x:Name ="Domestic_Line" Color= "Yellow" HeightRequest ="3"></BoxView>
+			</StackLayout>
+			<StackLayout Orientation = "Vertical" HorizontalOptions = "FillAndExpand" Spacing = "2" BackgroundColor = "#e61919">
+				<Button x:Name= "InternationalButton" 
+					Text = "International"
+					TextColor = "White"
+		 			BackgroundColor ="#e61919" 
+					BorderRadius = "0" 
+			   		HeightRequest = "40" 
+			   	    HorizontalOptions = "FillAndExpand"
+					Clicked = "Handle_Button_Clicked"/>
+				<BoxView x:Name ="InternationaLine" Color= "Yellow" HeightRequest ="3"></BoxView>
+			</StackLayout>
+		</StackLayout>
+		<ListView x:Name="TeamMembersListView" SeparatorVisibility ="None">
+	   	 <ListView.ItemTemplate>
+	      <DataTemplate>
+	        <TextCell Text="Inter Club 6's 2017" />
+	      </DataTemplate>
+	     </ListView.ItemTemplate>
+  		</ListView>
+	</StackLayout>
+</ContentPage>

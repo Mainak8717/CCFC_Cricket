@@ -1,42 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-	x:Class="CCFC_Cricket.CCFC_CricketTeamScreen">
+	x:Class="CCFC_Cricket.CCFC_CricketTeamScreen"
+	Title = "Teams">
 
 	<StackLayout Orientation = "Vertical">
-		<StackLayout Orientation = "Horizontal">
-			<StackLayout Orientation = "Vertical" HorizontalOptions = "FillAndExpand">
+		<StackLayout Orientation = "Horizontal" Spacing = "0" HorizontalOptions = "FillAndExpand">
+			<StackLayout Orientation = "Vertical" HorizontalOptions = "FillAndExpand" Spacing = "2" BackgroundColor = "#e61919">
 				<Button x:Name= "ATeam" 
 					Text = "A Team"
-					TextColor = "Black"
-		 			BackgroundColor = "White" 
-					BorderRadius = "7" 
-			    	HeightRequest = "40" 
+					TextColor = "White"
+		 			BackgroundColor = "#e61919" 
+			    	HeightRequest = "40"
+					BorderRadius = "0" 
 			    	HorizontalOptions = "FillAndExpand"
 					Clicked = "Handle_TeamButton_Clicked"/>
-				<BoxView x:Name ="A_Line" Color= "Black" HeightRequest ="2"></BoxView>
+				<BoxView x:Name ="A_Line" Color= "Yellow" HeightRequest ="3"></BoxView>
 			</StackLayout>
-			<StackLayout Orientation = "Vertical" HorizontalOptions = "FillAndExpand">
+			<StackLayout Orientation = "Vertical" HorizontalOptions = "FillAndExpand" Spacing = "2" BackgroundColor = "#e61919">
 				<Button x:Name= "BTeam" 
 					Text = "B Team"
-					TextColor = "Black"
-		 			BackgroundColor ="White" 
-					BorderRadius = "7" 
+					TextColor = "White"
+		 			BackgroundColor ="#e61919" 
+					BorderRadius = "0" 
 			   		HeightRequest = "40" 
 			   	    HorizontalOptions = "FillAndExpand"
 					Clicked = "Handle_TeamButton_Clicked"/>
-				<BoxView x:Name ="B_Line" Color= "Black" HeightRequest ="2"></BoxView>
+				<BoxView x:Name ="B_Line" Color= "Yellow" HeightRequest ="3"></BoxView>
 			</StackLayout>
-			<StackLayout Orientation = "Vertical" HorizontalOptions = "FillAndExpand">
+			<StackLayout Orientation = "Vertical" HorizontalOptions = "FillAndExpand" Spacing = "2" BackgroundColor = "#e61919">
 				<Button x:Name = "CTeam" 
 					Text = "C Team"
-					TextColor = "Black"
-		 			BackgroundColor = "White" 
-					BorderRadius = "7" 
+					TextColor = "White"
+		 			BackgroundColor = "#e61919" 
+					BorderRadius = "0" 
 			   		HeightRequest ="40" 
 			    	HorizontalOptions = "FillAndExpand"
 					Clicked = "Handle_TeamButton_Clicked"/>
-				<BoxView x:Name ="C_Line" Color= "Black" HeightRequest ="2"></BoxView>
+				<BoxView x:Name ="C_Line" Color= "Yellow" HeightRequest ="3"></BoxView>
 			</StackLayout>
 		</StackLayout>
 	<ListView x:Name="TeamMembersListView" SeparatorVisibility ="None">

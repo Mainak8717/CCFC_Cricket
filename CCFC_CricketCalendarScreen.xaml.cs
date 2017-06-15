@@ -31,6 +31,7 @@ namespace CCFC_Cricket
 				foreach (CalendarGamesModel match in matches)
 				{
 					match.matchDescription = string.Format("{0} vs {1}", match.teamName_One, match.teamName_Two);
+					match.result = string.Format("Result: {0}", match.result);
 					groupMatches.Add(match);
 				}
 				groupedByDate.Add(groupMatches);

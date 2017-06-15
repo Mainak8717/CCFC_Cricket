@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-	x:Class="CCFC_Cricket.CCFC_CricketCalendarScreen" BackgroundImage = "Home_Icon.png">
+	x:Class="CCFC_Cricket.CCFC_CricketCalendarScreen" BackgroundImage = "Home_Icon.png"
+	Title = "Calendar - 2017">
 
-<ListView  x:Name="lstView" RowHeight="100" IsGroupingEnabled="true" SeparatorVisibility = "Default" GroupDisplayBinding="{Binding LongName}" HasUnevenRows = "true">
+<ListView  x:Name="lstView" RowHeight="120" IsGroupingEnabled="true" SeparatorVisibility = "Default" GroupDisplayBinding="{Binding LongName}" HasUnevenRows = "true">
 			<ListView.GroupHeaderTemplate>
             	<DataTemplate>
               		<ViewCell Height="30">
@@ -19,6 +20,8 @@
 							<Label Text = "{Binding matchDescription}" FontAttributes = "Bold" HorizontalTextAlignment = "Start"/>
 							<Label Text = "{Binding gameTime}"  HorizontalTextAlignment = "Start" TextColor = "Gray"/>
 							<Label Text = "{Binding gameVenue}" HorizontalTextAlignment = "Start" TextColor = "Gray"/>
+							<Label Text = "{Binding result}" HorizontalTextAlignment = "Start" TextColor = "Blue"/>
+
 							<StackLayout HeightRequest = "5" HorizontalOptions = "StartAndExpand"/>
 					</StackLayout>
                     </ViewCell>

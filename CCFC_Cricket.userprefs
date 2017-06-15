@@ -1,18 +1,22 @@
 ﻿<Properties StartupConfiguration="{EBC0B4FE-829A-440A-A6E8-4863506051B4}|Default" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workbench ActiveDocument="CCFC_Cricket Status">
     <Files>
-      <File FileName="CCFC_CricketTeamScreen.xaml" Line="49" Column="1" />
+      <File FileName="CCFC_CricketTeamScreen.xaml" Line="46" Column="26" />
+      <File FileName="CCFC_CricketTournamentsScreen.xaml" Line="38" Column="2" />
+      <File FileName="CCFC_CricketTournamentsScreen.xaml.cs" Line="14" Column="39" />
+      <File FileName="CCFC_CricketPage.xaml.cs" Line="47" Column="1" />
+      <File FileName="CCFC_CricketTeamScreen.xaml.cs" Line="85" Column="33" />
       <File FileName="CCFC_Cricket Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.CCFC__Cricket.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C6481B53-81B0-4E10-AF35-C0C5C6E7BC8C" />
+  <MonoDevelop.Ide.ItemProperties.CCFC__Cricket.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E48B4C87-6E51-449A-974B-D2D685100032" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/rajlakshmi/Desktop/CCFC_Cricket/CCFC_CricketHomeScreen.xaml.cs" relfile="CCFC_CricketHomeScreen.xaml.cs" line="79" column="1" />
-      <Breakpoint file="/Users/rajlakshmi/Desktop/CCFC_Cricket/CCFC_CricketHomeScreen.xaml.cs" relfile="CCFC_CricketHomeScreen.xaml.cs" line="79" column="1" />
-      <Breakpoint file="/Users/rajlakshmi/Desktop/CCFC_Cricket/CCFC_CricketHomeScreen.xaml.cs" relfile="CCFC_CricketHomeScreen.xaml.cs" line="79" column="1" />
-      <Breakpoint file="/Users/rajlakshmi/Desktop/CCFC_Cricket/CCFC_CricketHomeScreen.xaml.cs" relfile="CCFC_CricketHomeScreen.xaml.cs" line="54" column="1" />
+      <Breakpoint file="/Users/Mainak/Desktop/CCFC_Cricket/CCFC_CricketHomeScreen.xaml.cs" relfile="CCFC_CricketHomeScreen.xaml.cs" line="79" column="1" />
+      <Breakpoint file="/Users/Mainak/Desktop/CCFC_Cricket/CCFC_CricketHomeScreen.xaml.cs" relfile="CCFC_CricketHomeScreen.xaml.cs" line="79" column="1" />
+      <Breakpoint file="/Users/Mainak/Desktop/CCFC_Cricket/CCFC_CricketHomeScreen.xaml.cs" relfile="CCFC_CricketHomeScreen.xaml.cs" line="79" column="1" />
+      <Breakpoint file="/Users/Mainak/Desktop/CCFC_Cricket/CCFC_CricketHomeScreen.xaml.cs" relfile="CCFC_CricketHomeScreen.xaml.cs" line="54" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
