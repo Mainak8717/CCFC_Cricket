@@ -3,7 +3,6 @@
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 	x:Class="CCFC_Cricket.CCFC_CricketTournamentsScreen">
 		<StackLayout Orientation = "Vertical">
-
 		<StackLayout Orientation = "Horizontal" Spacing = "0" HorizontalOptions = "FillAndExpand">
 			<StackLayout Orientation = "Vertical" HorizontalOptions = "FillAndExpand" Spacing = "2" BackgroundColor = "#e61919">
 				<Button x:Name= "DomesticButton" 
@@ -28,10 +27,10 @@
 				<BoxView x:Name ="InternationaLine" Color= "Yellow" HeightRequest ="3"></BoxView>
 			</StackLayout>
 		</StackLayout>
-		<ListView x:Name="TeamMembersListView" SeparatorVisibility ="None">
+		<ListView x:Name="TeamMembersListView" SeparatorVisibility ="Default">
 	   	 <ListView.ItemTemplate>
 	      <DataTemplate>
-	        <TextCell Text="Inter Club 6's 2017" />
+	        <TextCell Text="{Binding .}" />
 	      </DataTemplate>
 	     </ListView.ItemTemplate>
   		</ListView>

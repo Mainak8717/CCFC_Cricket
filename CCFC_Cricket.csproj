@@ -69,6 +69,7 @@
     <Compile Include="CCFC_CricketTournamentsScreen.xaml.cs">
       <DependentUpon>CCFC_CricketTournamentsScreen.xaml</DependentUpon>
     </Compile>
+    <Compile Include="PlayerModelClass.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json">

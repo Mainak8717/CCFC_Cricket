@@ -1,23 +1,28 @@
-﻿<Properties StartupConfiguration="{EBC0B4FE-829A-440A-A6E8-4863506051B4}|Default" GitUserInfo="UsingGIT">
+﻿<Properties StartupConfiguration="{142C374D-AA93-4276-8DEA-F3689A086152}|Default" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.ItemProperties.CCFC__Cricket.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.03157df340159640" />
   <MonoDevelop.Ide.Workbench ActiveDocument="CCFC_Cricket Status">
     <Files>
-      <File FileName="CCFC_CricketTeamScreen.xaml" Line="46" Column="26" />
-      <File FileName="CCFC_CricketTournamentsScreen.xaml" Line="38" Column="2" />
-      <File FileName="CCFC_CricketTournamentsScreen.xaml.cs" Line="14" Column="39" />
-      <File FileName="CCFC_CricketPage.xaml.cs" Line="47" Column="1" />
-      <File FileName="CCFC_CricketTeamScreen.xaml.cs" Line="85" Column="33" />
+      <File FileName="CCFC_CricketTournamentsScreen.xaml" Line="30" Column="72" />
+      <File FileName="CCFC_CricketTournamentsScreen.xaml.cs" Line="22" Column="50" />
+      <File FileName="CCFC_CricketCalendarScreen.xaml.cs" Line="17" Column="48" />
+      <File FileName="CCFC_CricketCalendarScreen.xaml" Line="11" Column="73" />
+      <File FileName="iOS/Info.plist" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="iOS/ConfigAccess.cs" Line="11" Column="1" />
+      <File FileName="CCFC_CricketPage.xaml.cs" Line="11" Column="10" />
+      <File FileName="App.xaml.cs" Line="16" Column="35" />
+      <File FileName="CCFC_CricketPage.xaml" Line="1" Column="1" />
+      <File FileName="CCFC_CricketHomeScreen.xaml.cs" Line="1" Column="1" />
+      <File FileName="CCFC_CricketHomeScreen.xaml" Line="1" Column="1" />
+      <File FileName="SideMenuItem.cs" Line="1" Column="1" />
+      <File FileName="App.xaml" Line="8" Column="58" />
       <File FileName="CCFC_Cricket Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.CCFC__Cricket.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E48B4C87-6E51-449A-974B-D2D685100032" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.CCFC__Cricket.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.971643a56cc799c64edf72000adbbf8c3dbe6cde" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/Mainak/Desktop/CCFC_Cricket/CCFC_CricketHomeScreen.xaml.cs" relfile="CCFC_CricketHomeScreen.xaml.cs" line="79" column="1" />
-      <Breakpoint file="/Users/Mainak/Desktop/CCFC_Cricket/CCFC_CricketHomeScreen.xaml.cs" relfile="CCFC_CricketHomeScreen.xaml.cs" line="79" column="1" />
-      <Breakpoint file="/Users/Mainak/Desktop/CCFC_Cricket/CCFC_CricketHomeScreen.xaml.cs" relfile="CCFC_CricketHomeScreen.xaml.cs" line="79" column="1" />
-      <Breakpoint file="/Users/Mainak/Desktop/CCFC_Cricket/CCFC_CricketHomeScreen.xaml.cs" relfile="CCFC_CricketHomeScreen.xaml.cs" line="54" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />

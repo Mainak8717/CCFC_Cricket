@@ -3,6 +3,7 @@ namespace CCFC_Cricket
 {
 	public interface IConfigDummyResp
 	{
-		string ReadJsonFromLocalFile();
+		string ReadJsonCalendarDetailsLocalFile();
+		string ReadJsonPlayerListLocalFile();
 	}
 }

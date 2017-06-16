@@ -14,10 +14,10 @@ namespace CCFC_Cricket
 		public CCFC_CricketCalendarScreen()
 		{
 			InitializeComponent();
-
+			lstView.BackgroundColor = Color.Transparent;
 
 			CCFC_Cricket.IConfigDummyResp json = DependencyService.Get<IConfigDummyResp>();
-			string response = json.ReadJsonFromLocalFile();
+			string response = json.ReadJsonCalendarDetailsLocalFile();
 			List<CalendarGamesModel> items = JsonConvert.DeserializeObject<List<CalendarGamesModel>>(response);
 
 			var matchesGroupByDate = items.GroupBy(u => u.gameDate);

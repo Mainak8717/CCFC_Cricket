@@ -1,0 +1,60 @@
+{"Teams" :[
+	{
+		"Players":
+			[
+				{ "name": "Mr. Irfan Ahmed (Captain)" },
+				{ "name": "Mr. Wazim Aziz (Vice Captain)" },
+				{ "name": "Mr. Mainak Choudhury" },
+				{ "name": "Mr. Zafar Aziz Khan" },
+				{ "name": "Mr. Tariq Aziz Khan" },
+				{ "name": "Mr. Aman Sondhi" },
+				{ "name": "Mr. Aadit Osatwal" },
+				{ "name": "Mr. Rohit Handa" },
+				{ "name": "Mr. Nirmalya Karmakar" },
+				{ "name": "Mr. Liam Baine" },
+				{ "name": "Mr. Yusuf Chisti" },
+				{ "name": "Mr. O.P Tiwari" },
+				{ "name": "Mr. Saugata Nandi" },
+				{ "name": "Mr. Razi Khan" }
+			],
+			"Title":"Team A"
+	},
+	{
+		"Players":
+			[
+				{ "name": "Mr. Mainak Choudhury (Captain)" },
+				{ "name": "Mr. Zafar Aziz Khan" },
+				{ "name": "Mr. Karan Grewal" },
+				{ "name": "Mr. Dinayar Mucadam" },
+				{ "name": "Mr. Aman Sondhi" },
+				{ "name": "Mr. Yusuf Chisti" },
+				{ "name": "Mr. Liam Baine" },
+				{ "name": "Mr. Atul Chaturvedi" },
+				{ "name": "Mr. Saubhadra Dasgupta" },
+				{ "name": "Mr. Rono Ray" },
+				{ "name": "Mr. Yusuf Chisti" },
+				{ "name": "Mr. Saugata Nandi" },
+				{ "name": "Mr. Razi Khan" }
+			],
+			"Title":"Team B"
+	},
+	{
+	  "Players":
+			[
+				{ "name": "Mr. Navendu Mathur (Captain)" },
+				{ "name": "Mr. Derek O Brian" },
+				{ "name": "Mr. Amit Kundu" },
+				{ "name": "Mr. Babul Das" },
+				{ "name": "Mr. Babul Mitter" },
+				{ "name": "Mr. Gaurav Ghosh" },
+				{ "name": "Mr. Vivek Bhasin" },
+				{ "name": "Mr. Atul Chaturvedi" },
+				{ "name": "Mr. Saubhadra Dasgupta" },
+				{ "name": "Mr. Gagan Arora" },
+				{ "name": "Mr. Shantanu Tewary" },
+				{ "name": "Mr. Samrat Ghosh" }
+			],
+			"Title":"Team C"
+	}
+]
+}

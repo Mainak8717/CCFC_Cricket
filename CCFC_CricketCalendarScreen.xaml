@@ -1,32 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-	x:Class="CCFC_Cricket.CCFC_CricketCalendarScreen" BackgroundImage = "Home_Icon.png"
+	x:Class="CCFC_Cricket.CCFC_CricketCalendarScreen" BackgroundImage = "blur.jpg"
 	Title = "Calendar - 2017">
-
-<ListView  x:Name="lstView" RowHeight="120" IsGroupingEnabled="true" SeparatorVisibility = "Default" GroupDisplayBinding="{Binding LongName}" HasUnevenRows = "true">
+	<ContentPage.Content>
+			<ListView  x:Name="lstView" RowHeight="120" IsGroupingEnabled="true" SeparatorColor = "White" SeparatorVisibility = "Default" GroupDisplayBinding="{Binding LongName}" HasUnevenRows = "true">
 			<ListView.GroupHeaderTemplate>
             	<DataTemplate>
               		<ViewCell Height="30">
-                		<StackLayout Padding="5" HorizontalOptions = "FillAndExpand" BackgroundColor = "#ff6666">
-                  			<Label Text="{Binding LongName}" TextColor="Blue" HorizontalTextAlignment = "Center" FontAttributes = "Bold"/>
+                		<StackLayout Padding="5" HorizontalOptions = "FillAndExpand"  VerticalOptions = "FillAndExpand" BackgroundColor = "#ff6666">
+                  			<Label Text="{Binding LongName}" TextColor="#4a148c" HorizontalTextAlignment = "Center" VerticalTextAlignment = "Center" FontAttributes = "Bold" FontSize = "20" VerticalOptions = "Center"/>
                 		</StackLayout>
               		</ViewCell>
            	 	</DataTemplate>
          	</ListView.GroupHeaderTemplate>
 			<ListView.ItemTemplate>
                 <DataTemplate>
-                    <ViewCell>
-                      	<StackLayout Orientation = "Vertical" HorizontalOptions = "StartAndExpand" Padding = "5,10,5,10">
-							<Label Text = "{Binding matchDescription}" FontAttributes = "Bold" HorizontalTextAlignment = "Start"/>
-							<Label Text = "{Binding gameTime}"  HorizontalTextAlignment = "Start" TextColor = "Gray"/>
-							<Label Text = "{Binding gameVenue}" HorizontalTextAlignment = "Start" TextColor = "Gray"/>
-							<Label Text = "{Binding result}" HorizontalTextAlignment = "Start" TextColor = "Blue"/>
-
-							<StackLayout HeightRequest = "5" HorizontalOptions = "StartAndExpand"/>
+                    <ViewCell >
+                      	<StackLayout Orientation = "Vertical" HorizontalOptions = "StartAndExpand" Padding = "5,10,5,10" >
+							<Label Text = "{Binding matchDescription}" FontAttributes = "Bold" HorizontalTextAlignment = "Start" TextColor = "White" FontSize = "20" />
+							<Label Text = "{Binding gameTime}"  HorizontalTextAlignment = "Start" TextColor = "Yellow" FontAttributes = "Bold" FontSize = "15" />
+							<Label Text = "{Binding gameVenue}" HorizontalTextAlignment = "Start" TextColor = "Yellow" FontAttributes = "Bold" FontSize = "15"/>
+							<Label Text = "{Binding result}" HorizontalTextAlignment = "Start" TextColor = "Blue" FontAttributes = "Bold" FontSize = "18"/>
+							<StackLayout HeightRequest = "5" HorizontalOptions = "StartAndExpand" BackgroundColor = "Transparent"/>
 					</StackLayout>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
-        </ListView> 
-	
+ 	</ListView>
+		</ContentPage.Content>
 </ContentPage>
