@@ -2230,8 +2230,8 @@ namespace CCFC_Cricket.Droid
 			// aapt resource value: 0x7f0200aa
 			public const int mr_ic_play_light = 2130837674;
 			
-			// aapt resource value: 0x7f0200b0
-			public const int notification_template_icon_bg = 2130837680;
+			// aapt resource value: 0x7f0200b1
+			public const int notification_template_icon_bg = 2130837681;
 			
 			// aapt resource value: 0x7f0200ab
 			public const int ProTeam_Icon = 2130837675;
@@ -2246,7 +2246,10 @@ namespace CCFC_Cricket.Droid
 			public const int Tournament_Icon = 2130837678;
 			
 			// aapt resource value: 0x7f0200af
-			public const int Zaffy = 2130837679;
+			public const int under_construction = 2130837679;
+			
+			// aapt resource value: 0x7f0200b0
+			public const int Zaffy = 2130837680;
 			
 			static Drawable()
 			{

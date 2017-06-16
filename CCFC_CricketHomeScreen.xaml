@@ -3,7 +3,7 @@
 	<StackLayout Orientation = "Vertical" HorizontalOptions = "FillAndExpand" VerticalOptions ="FillAndExpand">
 		<Image Source = "ccfc.jpg" HorizontalOptions = "FillAndExpand"/>
 		<Label Text = "Cricket Season 2017-18" HorizontalOptions = "CenterAndExpand" HorizontalTextAlignment = "Center" FontAttributes = "Bold"/>
-		<ListView x:Name="myList" CachingStrategy="RecycleElement" RowHeight="150" SeparatorVisibility="None">
+		<ListView x:Name="myList" CachingStrategy="RecycleElement" RowHeight="150" SeparatorVisibility="None" ItemSelected = "Handle_ItemSelected">
 			<ListView.ItemTemplate>
 				<DataTemplate>
 					<ViewCell>

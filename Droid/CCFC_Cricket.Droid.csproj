@@ -178,6 +178,10 @@
     <AndroidResource Include="Resources\drawable-hdpi\blur.jpg" />
     <AndroidResource Include="Resources\drawable-xhdpi\blur.jpg" />
     <AndroidResource Include="Resources\drawable-xxhdpi\blur.jpg" />
+    <AndroidResource Include="Resources\drawable\under_construction.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\under_construction.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\under_construction.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\under_construction.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\calendar2017.json" />
