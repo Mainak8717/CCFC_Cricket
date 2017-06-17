@@ -15,5 +15,10 @@ namespace CCFC_Cricket.iOS
 		{
 			return System.IO.File.ReadAllText("PlayerList.json");
 		}
+
+		public string ReadJsonContactsLocalFile()
+		{
+			return System.IO.File.ReadAllText("Contacts.json");
+		}
 	}
 }

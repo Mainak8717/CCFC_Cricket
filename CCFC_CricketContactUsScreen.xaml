@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="CCFC_Cricket.CCFC_CricketContactUsScreen"
+	Title = "Contact Us">
+	<StackLayout Orientation = "Vertical" Spacing = "5">
+		<Label Text="Calcutta Cricket &amp; Football Club" 
+				HorizontalTextAlignment = "Start" 
+				FontAttributes = "Bold" HorizontalOptions = "CenterAndExpand" />
+		<Label Text="19/1, Gurusaday Road" HorizontalOptions = "CenterAndExpand" />
+		<Label Text="Kolkata - 700019, West Bengal, India" HorizontalOptions = "CenterAndExpand" />
+		<StackLayout Orientation = "Vertical">
+				<Label Text="Web " HorizontalTextAlignment = "Center" HorizontalOptions = "CenterAndExpand" FontAttributes = "Bold" />
+				<Label Text="www.ccfc1792.com" HorizontalOptions = "CenterAndExpand"/>
+		</StackLayout>
+		<StackLayout Orientation = "Vertical">
+				<Label Text="Club Tele" HorizontalTextAlignment = "Center" HorizontalOptions = "CenterAndExpand" FontAttributes = "Bold" />
+				<Label Text="91-33-24615060 / 5204 / 4656" HorizontalOptions = "CenterAndExpand"/>
+		</StackLayout>
+		<StackLayout Orientation = "Vertical">
+				<Label Text="Fax" HorizontalOptions = "CenterAndExpand" FontAttributes = "Bold" />
+				<Label Text="+91-33-24615058" HorizontalOptions = "CenterAndExpand"/>
+		</StackLayout>
+		<StackLayout Orientation = "Vertical">
+				<Label Text="CEO" HorizontalOptions = "CenterAndExpand" FontAttributes = "Bold" />
+				<Label Text="ceo@ccfc1792.com" HorizontalOptions = "CenterAndExpand"/>
+		</StackLayout>
+		<StackLayout Orientation = "Vertical">
+				<Label Text="Secretary" HorizontalOptions = "CenterAndExpand" FontAttributes = "Bold" />
+				<Label Text="+91-33-2461 5059 / secretary@ccfc1792.com" HorizontalOptions = "CenterAndExpand"/>
+		</StackLayout>
+		<StackLayout Orientation = "Vertical">
+				<Label Text="Cricket Captain" HorizontalOptions = "CenterAndExpand" FontAttributes = "Bold" />
+				<Label Text="Mr. Irfan Ahmed" HorizontalOptions = "CenterAndExpand"/>
+		</StackLayout>
+		<Label Text="+91 9831567890 / irfanccfc@yahoo.co.in" HorizontalTextAlignment = "Center" HorizontalOptions = "CenterAndExpand"/>
+
+		<StackLayout Orientation = "Vertical">
+				<Label Text="Cricket Vice Captain" HorizontalOptions = "CenterAndExpand" FontAttributes = "Bold" />
+				<Label Text="Mr. Wazim Aziz" HorizontalOptions = "CenterAndExpand"/>
+		</StackLayout>
+		<Label Text="+91 70550 66534 / wazim666@gmail.com" HorizontalOptions = "CenterAndExpand"/>
+
+		<StackLayout Orientation = "Vertical">
+				<Label Text="Cricket Secretary" HorizontalOptions = "CenterAndExpand" FontAttributes = "Bold" />
+				<Label Text="Mr. Mainak Choudhury" HorizontalOptions = "CenterAndExpand"/>
+		</StackLayout>
+		<Label Text="+91 7044066268 / mainak8717@gmail.com" HorizontalOptions = "CenterAndExpand"/>
+
+	</StackLayout>
+</ContentPage>

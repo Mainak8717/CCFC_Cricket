@@ -45,6 +45,9 @@
     <EmbeddedResource Include="CCFC_CricketMerchantsCupScreen.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="CCFC_CricketContactUsScreen.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -76,6 +79,10 @@
     <Compile Include="CCFC_CricketMerchantsCupScreen.xaml.cs">
       <DependentUpon>CCFC_CricketMerchantsCupScreen.xaml</DependentUpon>
     </Compile>
+    <Compile Include="CCFC_CricketContactUsScreen.xaml.cs">
+      <DependentUpon>CCFC_CricketContactUsScreen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ContactModelClass.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json">

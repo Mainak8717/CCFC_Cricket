@@ -5,5 +5,6 @@ namespace CCFC_Cricket
 	{
 		string ReadJsonCalendarDetailsLocalFile();
 		string ReadJsonPlayerListLocalFile();
+		string ReadJsonContactsLocalFile();
 	}
 }
