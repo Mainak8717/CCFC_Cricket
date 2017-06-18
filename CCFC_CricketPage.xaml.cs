@@ -23,9 +23,8 @@ namespace CCFC_Cricket
 			var page5 = new SideMenuItem() { Title = "Merchants Cup", Icon = "MerchantsCup_Icon.png",TargetType = typeof(CCFC_CricketMerchantsCupScreen)};
 			var page6 = new SideMenuItem() { Title = "Gallery", Icon = "Gallery_Icon.png"};
 			var page7 = new SideMenuItem() { Title = "CCFC Pro Team", Icon = "ProTeam_Icon.png" };
-			var page8 = new SideMenuItem() { Title = "Social Media", Icon = "facebook.png" };
-			var page9 = new SideMenuItem() { Title = "Past Captains", Icon = "captains.png",TargetType = typeof(CCFC_CricketMatchResultsScreen)};
-			var page10 = new SideMenuItem() { Title = "Contact Us", Icon = "contactUs.png" ,TargetType = typeof(CCFC_CricketContactUsScreen)};
+			var page8 = new SideMenuItem() { Title = "Past Captains", Icon = "captains.png",TargetType = typeof(CCFC_CricketPastCaptainsScreen)};
+			var page9 = new SideMenuItem() { Title = "Contact Us", Icon = "contactUs.png" ,TargetType = typeof(CCFC_CricketContactUsScreen)};
 
 
 
@@ -41,7 +40,6 @@ namespace CCFC_Cricket
 			menuList.Add(page7);
 			menuList.Add(page8);
 			menuList.Add(page9);
-			menuList.Add(page10);
 
 			navigationDrawerList.ItemsSource = menuList;
 			Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(CCFC_CricketHomeScreen)));

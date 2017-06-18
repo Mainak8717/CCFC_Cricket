@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="CCFC_Cricket.CCFC_CricketResultDetailsScreen">
+	<StackLayout Orientation="Vertical">
+		<StackLayout x:Name="TeamOne" Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="10,0,0,0" BackgroundColor="Silver" HeightRequest="30">
+			<Label Text="C Team" HorizontalTextAlignment="Start" TextColor="Green" FontAttributes="Bold" FontSize="20" HorizontalOptions="StartAndExpand" />
+			<Label Text="245/5 (40 Ovrs)" HorizontalTextAlignment="Start" TextColor="Green" FontAttributes="Bold" FontSize="20" HorizontalOptions="EndAndExpand" />
+		</StackLayout>
+		<StackLayout Padding = "10,0,0,0" BackgroundColor = "Purple" Orientation = "Horizontal">
+			<Label Text="BATTING" HorizontalTextAlignment="Start" TextColor="Yellow" FontAttributes="Bold" FontSize="20" HorizontalOptions="StartAndExpand" />
+		</StackLayout>
+		<StackLayout x:Name="batting" Orientation="Vertical" HorizontalOptions="StartAndExpand" Padding="5,10,5,10">
+			<Label Text="Mainak Choudhury - 45" HorizontalTextAlignment="Start" TextColor="Green" FontAttributes="Bold" FontSize="20" HorizontalOptions="StartAndExpand" />
+			<Label Text="Zafar Aziz Khan - 50" HorizontalTextAlignment="Start" TextColor="Green" FontAttributes="Bold" FontSize="20" HorizontalOptions="StartAndExpand" />
+			<Label Text="Wazim Aziz - 40*" HorizontalTextAlignment="Start" TextColor="Green" FontAttributes="Bold" FontSize="20" HorizontalOptions="StartAndExpand" />
+		</StackLayout>
+		<StackLayout Padding = "10,0,0,0" BackgroundColor = "Purple" Orientation = "Horizontal">
+			<Label Text="BOWLING" HorizontalTextAlignment="Start" TextColor="Yellow" FontAttributes="Bold" FontSize="20" HorizontalOptions="StartAndExpand" />
+		</StackLayout>
+		<StackLayout x:Name="bowling" Orientation="Vertical" HorizontalOptions="FillAndExpand" Padding="10,0,0,0">
+			<Label Text="Aamir - 20/2" HorizontalTextAlignment="Start" TextColor="Green" FontAttributes="Bold" FontSize="20" HorizontalOptions="Start" />
+			<Label Text="Junaid - 30/1" HorizontalTextAlignment="Start" TextColor="Green" FontAttributes="Bold" FontSize="20" HorizontalOptions="Start" />
+			<Label Text="Imad - 16/2" HorizontalTextAlignment="Start" TextColor="Green" FontAttributes="Bold" FontSize="20" HorizontalOptions="Start" />
+		</StackLayout>
+	</StackLayout>
+</ContentPage>

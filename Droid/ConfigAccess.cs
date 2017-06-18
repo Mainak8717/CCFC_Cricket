@@ -50,5 +50,18 @@ namespace CCFC_Cricket.Droid
 
 			return reponse;
 		}
+		public string ReadJsonContactsLocalFile()
+		{
+			const string lfn = "Contacts.json";
+			string reponse = string.Empty;
+
+			using (var input = Application.Context.Assets.Open(lfn))
+			using (StreamReader sr = new System.IO.StreamReader(input))
+			{
+				reponse = sr.ReadToEnd();
+			}
+
+			return reponse;
+		}
 	}
 }

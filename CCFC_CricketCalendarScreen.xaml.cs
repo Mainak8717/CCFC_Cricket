@@ -49,7 +49,7 @@ namespace CCFC_Cricket
 		{
 			if (lstView.SelectedItem == null)
 				return;
-			this.Navigation.PushAsync(new CCFC_CricketMatchResultsScreen());
+			this.Navigation.PushAsync(new CCFC_CricketMatchResultsScreen("M1"));
 			lstView.SelectedItem = null;
 		}
 	}

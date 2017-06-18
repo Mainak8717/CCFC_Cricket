@@ -16,7 +16,7 @@ namespace CCFC_Cricket
 		public string team2Score { get; set;}
 
 		public ObservableCollection<ResultWrapper> resultWrapper { get; set; }
-		public CCFC_CricketMatchResultsScreen()
+		public CCFC_CricketMatchResultsScreen( string matchId)
 		{
 			InitializeComponent();
 			BindingContext = this;
@@ -37,8 +37,8 @@ namespace CCFC_Cricket
 
 
 			var tgr = new TapGestureRecognizer ();
-			tgr.Tapped += (object sender, EventArgs e) => { 
-			
+			tgr.Tapped += (object sender, EventArgs e) => {
+				this.Navigation.PushAsync(new CCFC_CricketResultDetailsScreen());
 			};
 			TeamOne.GestureRecognizers.Add(tgr);
 		}
