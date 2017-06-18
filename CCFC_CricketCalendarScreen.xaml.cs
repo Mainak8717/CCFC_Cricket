@@ -39,9 +39,18 @@ namespace CCFC_Cricket
 			}
 			lstView.ItemsSource = groupedByDate;
 		}
+
 		public class GroupedCalendarGames : ObservableCollection<CalendarGamesModel>
 		{
 			public string LongName { get; set; }
+		}
+
+		void Handle_ItemSelected(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
+		{
+			if (lstView.SelectedItem == null)
+				return;
+			this.Navigation.PushAsync(new CCFC_CricketMatchResultsScreen());
+			lstView.SelectedItem = null;
 		}
 	}
 }

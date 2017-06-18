@@ -10,6 +10,8 @@ namespace CCFC_Cricket
 		public string gameDate { get; set; }
 		public string matchDescription { get; set; }
 		public string result { get; set; }
+		public string matchId { get; set; }
+
 
 
 	}

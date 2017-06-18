@@ -3,10 +3,17 @@
 	x:Class="CCFC_Cricket.CCFC_CricketCalendarScreen" BackgroundImage = "blur.jpg"
 	Title = "Calendar - 2017">
 	<ContentPage.Content>
-			<ListView  x:Name="lstView" RowHeight="120" IsGroupingEnabled="true" SeparatorColor = "White" SeparatorVisibility = "Default" GroupDisplayBinding="{Binding LongName}" HasUnevenRows = "true">
+			<ListView  x:Name="lstView" 
+			RowHeight="120" 
+			IsGroupingEnabled="true"
+			SeparatorColor = "White"
+			SeparatorVisibility = "Default"
+			GroupDisplayBinding="{Binding LongName}"
+			HasUnevenRows = "true"
+			ItemSelected = "Handle_ItemSelected">
 			<ListView.GroupHeaderTemplate>
             	<DataTemplate>
-              		<ViewCell Height="30">
+              		<ViewCell Height="30" >
                 		<StackLayout Padding="5" HorizontalOptions = "FillAndExpand"  VerticalOptions = "FillAndExpand" BackgroundColor = "#ff6666">
                   			<Label Text="{Binding LongName}" TextColor="#4a148c" HorizontalTextAlignment = "Center" VerticalTextAlignment = "Center" FontAttributes = "Bold" FontSize = "20" VerticalOptions = "Center"/>
                 		</StackLayout>

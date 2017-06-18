@@ -1,0 +1,27 @@
+{
+  "Results":[
+            {
+	            	"match":{
+                            "FirstIninngsBattingTeam":"C Team",
+                           "FirstIninngsBattingTeamScore":245,
+                           "FirstIninngsWickets":5,
+                           "FirstIninngsOversPlayed":25,
+                           "FirstIninngsBatsman1":"Irfan Ahmed - 75",
+                           "FirstIninngsBatsman2":"Wazim Aziz - 45",
+                           "FirstIninngsBatsman3":"Zafar Aziz Khan - 40",
+                           "FirstIninngsBowler1":"Amir - 1",
+                           "FirstIninngsBowler2":"Imran - 3",
+                           "SecondIninngsBattingTeam":"India Bulls",
+                           "SecondIninngsBattingScore":225,
+                           "SecondIninngsOversPlayed":22,
+                           "SecondIninngsBatsman1":"Shezad - 60",
+                           "SecondIninngsBatsman2":"Vikram - 20",
+                           "SecondIninngsBatsman3":"Akram - 15",
+                           "SecondIninngsBowler1":"Mainak - 4",
+                           "SecondIninngsBowler2":"Zafar - 3",
+                           "SecondIninngsWickets":"10",
+                           "result": "C Team Won by 5 Runs"
+          },
+                "matchID":"M1"    
+            }]
+}

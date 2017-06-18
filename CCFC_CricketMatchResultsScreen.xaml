@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="CCFC_Cricket.CCFC_CricketMatchResultsScreen"
+	Title = "Match Result">
+	<StackLayout Orientation = "Vertical" Padding = "10,10,10,10">
+		<Label x:Name ="Title" Text = "C Team won by 20 runs"
+			HorizontalOptions = "CenterAndExpand"
+			TextColor = "Blue"
+			FontSize = "20"
+			FontAttributes = "Bold">
+		</Label>
+		<StackLayout x:Name = "TeamOne"
+			Orientation = "Horizontal"
+			HorizontalOptions = "FillAndExpand"
+			Padding = "5,10,5,10"
+			BackgroundColor = "Silver"
+			HeightRequest = "30">
+			<Label Text = "C Team"
+				HorizontalTextAlignment = "Start" 
+				TextColor = "Green" 
+				FontAttributes = "Bold" 
+				FontSize = "20"
+				HorizontalOptions = "StartAndExpand"/>
+		    <Label Text = "245/5 (40 Ovrs)" 
+				HorizontalTextAlignment = "Start" 
+				TextColor = "Green" 
+				FontAttributes = "Bold" 
+				FontSize = "20" 
+				HorizontalOptions = "EndAndExpand"/>
+			</StackLayout>
+		<StackLayout x:Name = "TeamTwo"
+			Orientation = "Horizontal" 
+			HorizontalOptions = "FillAndExpand" 
+			Padding = "5,10,5,10"
+			BackgroundColor = "Silver"
+			HeightRequest = "30">
+			<Label Text = "Hammer Bottoms"
+				HorizontalTextAlignment = "Start" 
+				TextColor = "Red" 
+				FontAttributes = "Bold" 
+				FontSize = "20"
+				HorizontalOptions = "StartAndExpand"/>
+		    <Label Text = "225/10 (38 Ovrs)" 
+				HorizontalTextAlignment = "Start" 
+				TextColor = "Red" 
+				FontAttributes = "Bold" 
+				FontSize = "20" 
+				HorizontalOptions = "EndAndExpand"/>
+			</StackLayout>
+<!--		<ListView x:Name="ResultListView"
+			SeparatorVisibility ="None">
+	   	 <ListView.ItemTemplate>
+	      <DataTemplate>
+                      	<StackLayout Orientation = "Horizontal" HorizontalOptions = "FillAndExpand" Padding = "5,10,5,10" BackgroundColor = "Silver" >
+							<Label Text = "{Binding team1.team}"
+								HorizontalTextAlignment = "Start" 
+								TextColor = "Green" 
+								FontAttributes = "Bold" 
+								FontSize = "20"
+								HorizontalOptions = "StartAndExpand"/>
+							<Label Text = "{Binding team1.teamScore}" 
+								HorizontalTextAlignment = "Start" 
+								TextColor = "Red" 
+								FontAttributes = "Bold" 
+								FontSize = "20" 
+								HorizontalOptions = "EndAndExpand"/>
+						</StackLayout>
+	      </DataTemplate>
+	     </ListView.ItemTemplate>
+ 		</ListView>-->
+	</StackLayout>
+</ContentPage>

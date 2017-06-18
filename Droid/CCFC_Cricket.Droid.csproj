@@ -108,6 +108,7 @@
     <None Include="packages.config" />
     <None Include="calendar2017.json" />
     <None Include="PlayerList.json" />
+    <None Include="Results.json" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Tabbar.axml" />

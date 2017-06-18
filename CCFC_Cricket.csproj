@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -40,6 +39,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="CCFC_CricketTournamentsScreen.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CCFC_CricketMatchResultsScreen.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="CCFC_CricketMerchantsCupScreen.xaml">
@@ -83,6 +85,12 @@
       <DependentUpon>CCFC_CricketContactUsScreen.xaml</DependentUpon>
     </Compile>
     <Compile Include="ContactModelClass.cs" />
+    <Compile Include="ResultsModalClass.cs" />
+    <Compile Include="CCFC_CricketMatchResultsScreen.xaml.cs">
+      <DependentUpon>CCFC_CricketMatchResultsScreen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ShortResultModelClass.cs" />
+    <Compile Include="ResultWrapper.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json">
