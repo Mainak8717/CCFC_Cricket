@@ -28,7 +28,7 @@
 				<BoxView x:Name ="InternationaLine" Color= "Yellow" HeightRequest ="3"></BoxView>
 			</StackLayout>
 		</StackLayout>
-		<ListView x:Name="TeamMembersListView" SeparatorVisibility ="Default" ItemSelected = "Handle_ItemSelected">
+		<ListView x:Name="TeamMembersListView" SeparatorVisibility ="None" ItemSelected = "Handle_ItemSelected">
 	   	 <ListView.ItemTemplate>
 	      <DataTemplate>
 	        <TextCell Text="{Binding .}" />

@@ -29,5 +29,10 @@ namespace CCFC_Cricket.iOS
 		{
 			return System.IO.File.ReadAllText("PastCaptains.json");
 		}
+
+		public string ReadJsonGalleryLocalFile()
+		{
+			return System.IO.File.ReadAllText("Gallery.json");
+		}
 	}
 }

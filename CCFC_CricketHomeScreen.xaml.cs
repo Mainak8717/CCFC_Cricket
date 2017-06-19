@@ -17,10 +17,13 @@ namespace CCFC_Cricket
 		{
 			InitializeComponent();
 			ObservableCollection<CommitteeMembers> membersList = new ObservableCollection<CommitteeMembers>();
+			membersList.Add(new CommitteeMembers() { imageSource = "arunlal.jpg", designation = "President", displayName = "Mr. Arun Lal"});
+			membersList.Add(new CommitteeMembers() { imageSource = "nvm.jpg", designation = "Sports Co-ordinator", displayName = "Mr. Navendu Mathur"});
 			membersList.Add(new CommitteeMembers() { imageSource = "irfan.jpg", designation = "Captain", displayName = "Mr. Irfan Ahmed"});
-			membersList.Add(new CommitteeMembers() { imageSource = "irfan.jpg", designation = "Vice Captain", displayName = "Mr. Wasim Aziz"});
+			membersList.Add(new CommitteeMembers() { imageSource = "wazim.png", designation = "Vice Captain", displayName = "Mr. Wasim Aziz"});
 			membersList.Add(new CommitteeMembers() { imageSource = "mainak.jpg", designation = "Joint Secy", displayName = "Mr. Mainak Choudhury"});
 			membersList.Add(new CommitteeMembers() { imageSource = "Zaffy.jpg", designation = "Joint Secy", displayName = "Mr. Zafar Aziz Khan"});
+
 
 			ObservableCollection<CommitteMemberWrapper> membersListWrapper = new ObservableCollection<CommitteMemberWrapper>();
 			for (int i = 0; i < membersList.Count; i++)

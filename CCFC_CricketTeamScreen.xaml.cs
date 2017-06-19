@@ -34,23 +34,23 @@ namespace CCFC_Cricket
 					Team_A_MembersList = new ObservableCollection<string>();
 					foreach (PlayerModelClass.Player player in team.Players)
 						Team_A_MembersList.Add(player.Name);
-					TeamMembersListView.ItemsSource = Team_A_MembersList;
 				}
 				else if (team.Title.Equals("Team B"))
 				{
 					Team_B_MembersList = new ObservableCollection<string>();
 					foreach (PlayerModelClass.Player player in team.Players)
 						Team_B_MembersList.Add(player.Name);
-					TeamMembersListView.ItemsSource = Team_B_MembersList;
 				}
 				else if (team.Title.Equals("Team C"))
 				{
 					Team_C_MembersList = new ObservableCollection<string>();
 					foreach (PlayerModelClass.Player player in team.Players)
 						Team_C_MembersList.Add(player.Name);
-					TeamMembersListView.ItemsSource = Team_C_MembersList;
 				}
 			}
+
+			TeamMembersListView.ItemsSource = Team_A_MembersList;
+
 		}
 
 		void Handle_ItemSelected(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)

@@ -2,19 +2,18 @@
   <MonoDevelop.Ide.ItemProperties.CCFC__Cricket.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" />
   <MonoDevelop.Ide.Workbench ActiveDocument="CCFC_Cricket Status">
     <Files>
-      <File FileName="CCFC_CricketPage.xaml.cs" Line="43" Column="1" />
-      <File FileName="iOS/Info.plist" />
       <File FileName="CCFC_Cricket Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.CCFC__Cricket.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E48B4C87-6E51-449A-974B-D2D685100032" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.CCFC__Cricket.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.cddcea34dc49f493490da03d746409fda52b1500" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/Mainak/Desktop/CCFC_Cricket/Droid/ConfigAccess.cs" relfile="Droid/ConfigAccess.cs" line="15" column="1" />
-      <Breakpoint file="/Users/Mainak/Desktop/CCFC_Cricket/Droid/ConfigAccess.cs" relfile="Droid/ConfigAccess.cs" line="28" column="1" />
-      <Breakpoint file="/Users/Mainak/Desktop/CCFC_Cricket/Droid/ConfigAccess.cs" relfile="Droid/ConfigAccess.cs" line="42" column="1" />
-      <Breakpoint file="/Users/Mainak/Desktop/CCFC_Cricket/Droid/ConfigAccess.cs" relfile="Droid/ConfigAccess.cs" line="55" column="1" />
+      <Breakpoint file="/Users/rajlakshmi/Desktop/CCFC_Cricket/Droid/ConfigAccess.cs" relfile="Droid/ConfigAccess.cs" line="15" column="1" />
+      <Breakpoint file="/Users/rajlakshmi/Desktop/CCFC_Cricket/Droid/ConfigAccess.cs" relfile="Droid/ConfigAccess.cs" line="28" column="1" />
+      <Breakpoint file="/Users/rajlakshmi/Desktop/CCFC_Cricket/Droid/ConfigAccess.cs" relfile="Droid/ConfigAccess.cs" line="42" column="1" />
+      <Breakpoint file="/Users/rajlakshmi/Desktop/CCFC_Cricket/Droid/ConfigAccess.cs" relfile="Droid/ConfigAccess.cs" line="55" column="1" />
+      <Breakpoint file="/Users/rajlakshmi/Desktop/CCFC_Cricket/CCFC_CricketTournamentsScreen.xaml.cs" relfile="CCFC_CricketTournamentsScreen.xaml.cs" line="28" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="CCFC_Cricket.CCFC_CricketGalleryScreen"
+	Title = "Gallery">
+		<ListView x:Name="myList" CachingStrategy="RecycleElement" RowHeight="180" SeparatorVisibility="None">
+			<ListView.ItemTemplate>
+				<DataTemplate>
+					<ViewCell>
+						<Grid>
+							<Grid.ColumnDefinitions>
+								<ColumnDefinition Width="*" />
+								<ColumnDefinition Width="*" />
+							</Grid.ColumnDefinitions>
+							<StackLayout Orientation="Vertical" Padding="5,5,5,5" BackgroundColor = "Olive">
+								<Image Source="{Binding img1.imgSrc}" HorizontalOptions ="FillAndExpand" VerticalOptions = "FillAndExpand">
+									<Image.GestureRecognizers>
+        								<TapGestureRecognizer Tapped="imageClicked" NumberOfTapsRequired = "1"/>
+     								 </Image.GestureRecognizers>
+								</Image>
+							</StackLayout>
+							<StackLayout Grid.Column="1" Orientation="Vertical" Padding="5,5,5,5" BackgroundColor = "Olive">
+								<Image Source="{Binding img2.imgSrc}" HorizontalOptions ="FillAndExpand" VerticalOptions = "FillAndExpand">
+									<Image.GestureRecognizers>
+        								<TapGestureRecognizer Tapped="imageClicked" NumberOfTapsRequired = "1"/>
+     								 </Image.GestureRecognizers>
+								</Image>
+							</StackLayout>
+						</Grid>
+					</ViewCell>
+				</DataTemplate>
+			</ListView.ItemTemplate>
+		</ListView>
+</ContentPage>

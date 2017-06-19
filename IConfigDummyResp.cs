@@ -8,7 +8,6 @@ namespace CCFC_Cricket
 		string ReadJsonContactsLocalFile();
 		string ReadJsonResultsLocalFile();
 		string ReadJsonPastCaptainsLocalFile();
-
-
+		string ReadJsonGalleryLocalFile();
 	}
 }

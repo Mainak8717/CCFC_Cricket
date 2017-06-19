@@ -56,6 +56,9 @@
     <EmbeddedResource Include="CCFC_CricketPastCaptainsScreen.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="CCFC_CricketGalleryScreen.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -104,6 +107,11 @@
     <Compile Include="CCFC_CricketPastCaptainsScreen.xaml.cs">
       <DependentUpon>CCFC_CricketPastCaptainsScreen.xaml</DependentUpon>
     </Compile>
+    <Compile Include="CCFC_CricketGalleryScreen.xaml.cs">
+      <DependentUpon>CCFC_CricketGalleryScreen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GalleryModel.cs" />
+    <Compile Include="GalleryWrapper.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json">
