@@ -180,6 +180,19 @@
     <AndroidResource Include="Resources\drawable-hdpi\under_construction.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\under_construction.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\under_construction.png" />
+    <AndroidResource Include="Resources\drawable\nvm.jpg" />
+    <AndroidResource Include="Resources\drawable\arunlal.jpg" />
+    <AndroidResource Include="Resources\drawable\wazim.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\nvm.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\arunlal.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\wazim.png" />
+    <AndroidResource Include="Resources\drawable\img5.png" />
+    <AndroidResource Include="Resources\drawable\img4.png" />
+    <AndroidResource Include="Resources\drawable\img3.png" />
+    <AndroidResource Include="Resources\drawable\img2.png" />
+    <AndroidResource Include="Resources\drawable\img1.png" />
+    <AndroidResource Include="Resources\drawable\captains.png" />
+    <AndroidResource Include="Resources\drawable\contactUs.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\calendar2017.json" />
@@ -187,6 +200,7 @@
     <AndroidAsset Include="Assets\Results.json" />
     <AndroidAsset Include="Assets\Contacts.json" />
     <AndroidAsset Include="Assets\PastCaptains.json" />
+    <AndroidAsset Include="Assets\Gallery.json" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets')" />

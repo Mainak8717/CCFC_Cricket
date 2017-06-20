@@ -63,5 +63,31 @@ namespace CCFC_Cricket.Droid
 
 			return reponse;
 		}
+
+		public string ReadJsonPastCaptainsLocalFile()
+		{
+const string lfn = "PastCaptains.json";
+string reponse = string.Empty;
+
+			using (var input = Application.Context.Assets.Open(lfn))
+				using (StreamReader sr = new System.IO.StreamReader(input))
+				{
+					reponse = sr.ReadToEnd();
+				}
+		return reponse;
+		}
+
+		public string ReadJsonGalleryLocalFile()
+		{
+			const string lfn = "Gallery.json";
+			string reponse = string.Empty;
+
+			using (var input = Application.Context.Assets.Open(lfn))
+				using (StreamReader sr = new System.IO.StreamReader(input))
+				{
+					reponse = sr.ReadToEnd();
+				}
+		return reponse;
+		}
 	}
 }
